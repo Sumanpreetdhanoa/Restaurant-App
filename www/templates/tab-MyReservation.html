@@ -1,0 +1,16 @@
+<ion-view view-title="My Reservation">
+  <ion-content>
+    <ion-list>
+        <div class="reservation" align="center">
+              <h1>My Reservation</h1>
+          <div class="bookingDetails" ng-repeat="item in myReservations track by $index">
+            <h3>Name: {{item.name}}</h3>
+            <h3>Email: {{item.email}}</h3>
+            <h3>Address: {{item.address}}</h3>
+            <h3>City: {{item.city}}</h3>
+            <h3>Postal Code: {{item.postal}}</h3>
+            <h3>Date: {{item.date}}</h3>
+          </div>
+ </ion-list>
+  </ion-content>
+</ion-view>
