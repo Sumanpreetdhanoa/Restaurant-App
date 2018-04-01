@@ -33,7 +33,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/restaurant',
     views: {
       'tab-restaurant': {
-        templateUrl: 'templates/tab-restaurant.html',
+        templateUrl: 'templates/tab-Restaurant.html',
         controller: 'RestaurantCtrl'
       }
     }
@@ -42,7 +42,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/about',
     views: {
       'tab-about': {
-        templateUrl: 'templates/tab-about.html',
+        templateUrl: 'templates/tab-About.html',
         controller: 'AboutCtrl'
       }
     }
@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/myReservation',
       views: {
         'tab-myReservation': {
-          templateUrl: 'templates/tab-myReservation.html',
+          templateUrl: 'templates/tab-MyReservation.html',
           controller: 'MyReservationCtrl'
         }
       }
@@ -61,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/features',
       views: {
         'tab-features': {
-          templateUrl: 'templates/tab-features.html',
+          templateUrl: 'templates/tab-Features.html',
           controller: 'FeaturesCtrl'
         }
       }
